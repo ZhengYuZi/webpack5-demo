@@ -1,0 +1,51 @@
+.main {
+    color: #0000fb;
+}
+
+.logo {
+    width: 400px;
+    height: auto;
+    margin: 20px;
+}
+
+.bkimg {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: -99;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login_box {
+    width: 320px;
+    background-color: #fbfbfb;
+
+    .card-header {
+        height: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: 600;
+    }
+
+    .input_box {
+        height: 200px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        cursor: pointer;
+
+        .captcha {
+            display: flex;
+
+            .captcha-box {
+                width: 100px;
+                margin-left: 5%;
+            }
+        }
+    }
+}

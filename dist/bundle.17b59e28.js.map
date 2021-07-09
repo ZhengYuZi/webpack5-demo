@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://webpack/./src/index.js"],"names":["$","click","alert"],"mappings":";;;AAAA;AAEAA,CAAC,CAAC,OAAD,CAAD,CAAWC,KAAX,CACI,YAAU;AACNC,OAAK,CAAC,QAAD,CAAL;AACH,CAHL,E","file":"bundle.17b59e28.js","sourcesContent":["import './index.less'\r\n\r\n$('.main').click(\r\n    function(){\r\n        alert(\"段落被点击了\");\r\n    }\r\n)"],"sourceRoot":""}
